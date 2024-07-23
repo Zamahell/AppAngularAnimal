@@ -1,0 +1,21 @@
+<div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-6 mb-4">
+        <div class="card card-custom">
+          <section class="card-top-wrapper mt-5">
+            <form (submit)="registerAnimal()">
+              <div class="mb-3">
+                <div class="hero-card gradient-teal card-top-wrapper"></div>
+                <label for="animalName" class="card-title">Ingresa el nombre del animal para el registro</label>
+                <input type="text" id="animalName" class="form-control" [(ngModel)]="animal.name" name="name" required>
+              </div>
+              <div class="d-grid mx-auto">
+                <button type="submit" class="btn btn-success btn-lg adopt-button">Registrar</button>
+              </div>
+            </form>
+          </section>
+        </div>
+      </div>
+    </div>
+  </div>
+  

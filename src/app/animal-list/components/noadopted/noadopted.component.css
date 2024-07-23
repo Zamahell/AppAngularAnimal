@@ -1,0 +1,30 @@
+:host {
+  display: block;
+}
+
+.list-group-item:nth-child(odd) {
+  background-color: #ffffff; 
+}
+.list-group-item:nth-child(even) {
+  background-color: #e7ecf2; 
+}
+
+.pagination-buttons {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#recordsPerPage {
+  width: auto;
+}
+
+@media (max-width: 768px) {
+  .d-flex.justify-content-between {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .pagination-buttons {
+    justify-content: center;
+    margin-bottom: 1rem;
+  }
+}

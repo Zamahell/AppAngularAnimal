@@ -1,0 +1,37 @@
+<div class="container mt-5">
+    <div class="row">
+      <div class="col-md-6 mb-4"> 
+        <div class="card card-custom">
+          <section class="card-top-wrapper mt-5">
+            <form (submit)="registerAnimal()">
+              <div class="mb-3">
+                <div class="hero-card gradient-teal card-top-wrapper"></div>
+                <label for="animalName" class="card-title">Ingresa el nombre del animal para el registro</label>
+                <input type="text" id="animalName" class="form-control" [(ngModel)]="animal.name" name="name" required>
+              </div>
+              <div class="d-grid mx-auto">
+                <button type="submit" class="btn btn-success btn-lg adopt-button" id="liveToastBtn">Registrar</button>
+              </div>
+            </form>
+          </section>
+        </div>
+      </div>
+  
+      <div class="col-md-6 mb-4">
+        <div class="card card-customv2">
+          <section class="card-top-wrapper mt-5">
+            <form >
+              <div class="mb-3">
+                <div class="hero-card gradient-teal card-top-wrapper"></div>
+                <label for="searchAnimalName" class="card-title">Ingresa el nombre para buscar animal -"En mantención"</label>
+                <input type="text" id="searchAnimalName" class="form-control"  name="searchName" required>
+              </div>
+              <div class="d-grid mx-auto">
+                <button type="submit" class="btn btn-success btn-lg adopt-button">Buscar</button>
+              </div>
+            </form>
+          </section>
+        </div>
+      </div>
+    </div>
+  </div>

@@ -1,0 +1,44 @@
+:host {
+  display: block;
+}
+
+.card-top-wrapper {
+  flex-direction: column;
+  flex: 1;
+  justify-content: space-between;
+  align-self: center;
+  width: 100%;
+  padding: 9px;
+  display: flex;
+}
+
+.card-title {
+  color: #152235;
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 120%;
+}
+
+.form-control {
+  border: 2px solid #007bff; 
+  border-radius: 5px; 
+  padding: 10px; 
+  transition: border-color 0.3s ease; 
+  margin-top: 15px;
+}  
+
+.card-custom {
+  background: linear-gradient(to bottom, #ffffff 0%, #BFE0E2 100%); 
+  border: none; 
+  border-radius: 10px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.card-customv2 {
+background: linear-gradient(to bottom, #ffffff 0%, #B8D7FF 100%); 
+border-radius: 10px; 
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}

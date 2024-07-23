@@ -1,1 +1,12 @@
-/* You can add global styles to this file, and also import other style files */
+@import 'ngx-toastr/toastr';
+
+.custom-navbar {
+    background-color: #198754; 
+  }
+
+.custom-navbar .navbar-brand, .custom-navbar .nav-link {
+    color: #ffffff;
+    font-weight: bold; 
+    margin-left: 100px;
+}
+
